@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera2Activity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/camerabutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/buttonbulat"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add_a_photo_black" />
+
+    <ImageView
+        android:id="@+id/photoimgview2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="26dp" />
+    <!--<com.ebanx.swipebtn.SwipeButton-->
+        <!--android:id="@+id/swipe"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--app:inner_text_bottom_padding="18dp"-->
+        <!--app:inner_text_top_padding="18dp"-->
+        <!--app:inner_text="Check in"-->
+        <!--app:inner_text_color="@android:color/white"-->
+        <!--app:inner_text_size="16sp"-->
+        <!--app:button_image_disabled="@drawable/sidikjari"-->
+        <!--app:button_image_enabled="@drawable/sidikjari"-->
+        <!--app:button_left_padding="20dp"-->
+        <!--app:button_right_padding="20dp"-->
+
+        <!--&gt;-->
+
+    <!--</com.ebanx.swipebtn.SwipeButton>-->
+
+</RelativeLayout>
