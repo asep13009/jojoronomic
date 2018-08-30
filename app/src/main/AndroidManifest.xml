@@ -70,7 +70,8 @@
 
         <activity android:name=".PostmanActivity" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".LogActivity"></activity>
+        <activity android:name=".LogActivity" />
+        <activity android:name=".RembrushActivity"></activity>
     </application>
 
 </manifest>
